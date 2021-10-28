@@ -39,8 +39,8 @@ public class Game : MonoBehaviour {
             FileStream file = File.Open(Application.persistentDataPath + "/gamesave.save", FileMode.Open);
             Save save = (Save) bf.Deserialize(file);
             file.Close();
-
-            team = new List<Warrior>();
+            
+            ClearTeam();
             for(int i = 0; i < save.cellsX.Count; i++) {
                 Vector3Int cell = new Vector3Int(save.cellsX[i], save.cellsY[i], 0);
                 float moveRegen = save.moveRegens[i];
@@ -56,7 +56,7 @@ public class Game : MonoBehaviour {
     }
     public void NewGame() {
         // TODO : Load both teams
-        team = new List<Warrior>();
+        ClearTeam();
         Warrior warrior1 = Instantiate(lavaWormPrefab, terrain.GetCellCenterWorld(new Vector3Int(2, 0, 0)), Quaternion.identity).GetComponent<Warrior>();
         warrior1.SetCell(new Vector3Int(2, 0, 0));
         Warrior warrior2 = Instantiate(lavaWormPrefab, terrain.GetCellCenterWorld(new Vector3Int(-2, 1, 0)), Quaternion.identity).GetComponent<Warrior>();
@@ -78,7 +78,17 @@ public class Game : MonoBehaviour {
         return save;
     }
     //-------------------- Main Game Logic --------------------//
+    // TODO : Clear Area tiles in all appropriate places
+    // TODO : Find where duplicates are coming from and correct ClearTeam
+    void ClearTeam() {
+        foreach(Warrior warrior in team) {
+            Destroy(warrior.GetComponent<GameObject>());
+        }
+        team = new List<Warrior>();
+    }
     void Start() {
+        NewGame();
+        SaveGame();
         cursorTile = Vector3Int.zero;
         prevTile = cursorTile;
         tileEffects.ClearAllTiles();
@@ -101,12 +111,13 @@ public class Game : MonoBehaviour {
                 if(warrior.Cell() == cursorTile)
                     hoverWarrior = warrior;
             if(hoverWarrior != null) {
-                HighlightArea(hoverWarrior.Cell());
+                HighlightArea(hoverWarrior.Cell(), hoverWarrior.Range());
             } else {
                 tileEffects.ClearAllTiles();
             }
             tileEffects.SetTile(cursorTile, hoverTile);
             prevTile = cursorTile;
+            debugText.text = "" + cursorTile;
         }
         // Click
         if(Input.GetMouseButtonDown(0)) {
@@ -127,7 +138,7 @@ public class Game : MonoBehaviour {
         }
         if(activeWarrior != null) {
             debugText.text = activeWarrior.CooldownMove() + "";
-            HighlightArea(activeWarrior.Cell());
+            HighlightArea(activeWarrior.Cell(), activeWarrior.Range());
         }
     }
 
@@ -135,22 +146,81 @@ public class Game : MonoBehaviour {
         activeWarrior.Move(tile);
         activeWarrior.transform.position = terrain.GetCellCenterWorld(tile);
     }
-
-    private void HighlightArea(Vector3Int positon) {
-        // TODO : Recursion on range, include tile type modifiers
-        areaTiles = new List<Vector3Int>();
-        areaTiles.Add(new Vector3Int(positon.x-1, positon.y, 0));
-        areaTiles.Add(new Vector3Int(positon.x, positon.y, 0));
-        areaTiles.Add(new Vector3Int(positon.x+1, positon.y, 0));
-        areaTiles.Add(new Vector3Int(positon.x, positon.y-1, 0));
-        areaTiles.Add(new Vector3Int(positon.x, positon.y+1, 0));
-        if(positon.y%2 == 0) {
-            areaTiles.Add(new Vector3Int(positon.x-1, positon.y-1, 0));
-            areaTiles.Add(new Vector3Int(positon.x-1, positon.y+1, 0));
+    /*¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯*
+    |             Cell grid translates right 90º                                |
+    |             Every mod(Y,2)=0 follows up > down > up                       |
+    |             Every mod(Y,2)=1 follows down > up > down                     |
+    |                                                                           |
+    |                              so...                                        |
+    |                 <     -      Y      +     >           cell = (0, 1):      |
+    |    /¯¯¯\    ∧           mod(Y,2)=0 :                                      |
+    |     X+1               /¯0¯\     /¯0¯\                      /¯1¯\          |
+    |    \___/    +         \_0_//¯0¯\\_0_/                 /¯1¯\\_1_//¯1¯\     |
+    |    /¯¯¯\                   \_0_/                      \_0_//¯0¯\\_2_/     |
+    |      X      X                                         /¯0¯\\_1_//¯0¯\     |
+    |    \___/                mod(Y,2)=1 :                  \_0_//-1¯\\_2_/     |
+    |    /¯¯¯\    -              /¯0¯\                           \_1_/          |
+    |     X-1               /¯0¯\\_0_//¯0¯\                                     |
+    |    \___/    ∨         \_0_/     \_0_/                                     |
+    |                                                       cell = (0, 2):      |
+    |   Add each surrounding cell to List                                       |
+    |   Break recursion when range is 1                          /¯1¯\          |
+    |   Always check if List.Contains(cell)                 /¯0¯\\_2_//¯0¯\     |
+    |                                                       \_1_//¯0¯\\_3_/     |
+    |   To extend range, use TraceCell(0, true)             /-1¯\\_2_//-1¯\     |
+    |                                                       \_1_//-1¯\\_3_/     |
+    |                                                            \_2_/          |
+    *__________________________________________________________________________*/
+    private List<Vector3Int> myTiles = new List<Vector3Int>();
+    private void AddToArea(Vector3Int cell, int distance) {
+        int xOffset = (cell.y%2 == 0)? -1: 0;
+        if(distance == 1) {
+            Vector3Int plug = new Vector3Int(cell.x-1, cell.y, 0);
+            if(!myTiles.Contains(plug)) { myTiles.Add(plug); }
+            plug = new Vector3Int(cell.x, cell.y, 0);
+            if(!myTiles.Contains(plug)) { myTiles.Add(plug); }
+            plug = new Vector3Int(cell.x+1, cell.y, 0);
+            if(!myTiles.Contains(plug)) { myTiles.Add(plug); }
+            plug = new Vector3Int(cell.x+xOffset, cell.y-1, 0);
+            if(!myTiles.Contains(plug)) { myTiles.Add(plug); }
+            plug = new Vector3Int(cell.x+xOffset+1, cell.y-1, 0);
+            if(!myTiles.Contains(plug)) { myTiles.Add(plug); }
+            plug = new Vector3Int(cell.x+xOffset, cell.y+1, 0);
+            if(!myTiles.Contains(plug)) { myTiles.Add(plug); }
+            plug = new Vector3Int(cell.x+xOffset+1, cell.y+1, 0);
+            if(!myTiles.Contains(plug)) { myTiles.Add(plug); }
         } else {
-            areaTiles.Add(new Vector3Int(positon.x+1, positon.y-1, 0));
-            areaTiles.Add(new Vector3Int(positon.x+1, positon.y+1, 0));
+            Vector3Int plug = new Vector3Int(cell.x-1, cell.y, 0);
+            if(!myTiles.Contains(plug)) { myTiles.Add(plug); }
+            AddToArea(plug, distance-1);
+            plug = new Vector3Int(cell.x, cell.y, 0);
+            if(!myTiles.Contains(plug)) { myTiles.Add(plug); }
+            AddToArea(plug, distance-1);
+            plug = new Vector3Int(cell.x+1, cell.y, 0);
+            if(!myTiles.Contains(plug)) { myTiles.Add(plug); }
+            AddToArea(plug, distance-1);
+            plug = new Vector3Int(cell.x+xOffset, cell.y-1, 0);
+            if(!myTiles.Contains(plug)) { myTiles.Add(plug); }
+            AddToArea(plug, distance-1);
+            plug = new Vector3Int(cell.x+xOffset+1, cell.y-1, 0);
+            if(!myTiles.Contains(plug)) { myTiles.Add(plug); }
+            AddToArea(plug, distance-1);
+            plug = new Vector3Int(cell.x+xOffset, cell.y+1, 0);
+            if(!myTiles.Contains(plug)) { myTiles.Add(plug); }
+            AddToArea(plug, distance-1);
+            plug = new Vector3Int(cell.x+xOffset+1, cell.y+1, 0);
+            if(!myTiles.Contains(plug)) { myTiles.Add(plug); }
+            AddToArea(plug, distance-1);
         }
+    }
+
+    private void HighlightArea(Vector3Int positon, int range) {
+        // TODO : Recursion on range, include tile type modifiers
+        myTiles = new List<Vector3Int>();
+        areaTiles = new List<Vector3Int>();
+        AddToArea(positon, range);
+        areaTiles = myTiles;
+        
         foreach(Vector3Int tile in areaTiles)
             tileEffects.SetTile(tile, rangeTile);
     }

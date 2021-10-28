@@ -13,6 +13,7 @@ public class Warrior : MonoBehaviour {
     private float moveRegen = 0.1f;
     private float moveRemaining = 0.0f;
     private float moveCost = 4.3f;
+    private int range = 2;
     //-------------------- Attacks --------------------//
     private float baseAttack = 2.6f;
     private float attackMax = 3.2f;
@@ -34,6 +35,7 @@ public class Warrior : MonoBehaviour {
 
     void Start() { StartCoroutine(RegenerateStats(0.5f)); }
     //-------------------- Getters --------------------//
+    public int Range() { return range; }
     public Vector3Int Cell() { return cell; }
     public bool CanMove() { return (moveRemaining > moveCost); }
     public bool CanAttack() { return (attackRemaining > attackCost); }
