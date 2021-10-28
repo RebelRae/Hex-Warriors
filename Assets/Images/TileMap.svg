@@ -1,0 +1,902 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="800"
+   height="600"
+   viewBox="0 0 211.66666 158.75"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1 (c4e8f9e, 2021-05-24)"
+   sodipodi:docname="TileMap.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="true"
+     inkscape:document-units="mm"
+     showgrid="false"
+     units="px"
+     inkscape:snap-global="true"
+     inkscape:zoom="0.83276241"
+     inkscape:cx="94.264581"
+     inkscape:cy="267.78346"
+     inkscape:window-width="1312"
+     inkscape:window-height="762"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1"
+     inkscape:snap-bbox="true"
+     inkscape:bbox-nodes="true"
+     inkscape:bbox-paths="true" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Tiles"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g1754"
+       inkscape:export-filename="/Users/rebelrae/Hex Warriors/Assets/Images/Water.png"
+       inkscape:export-xdpi="57.599983"
+       inkscape:export-ydpi="57.599983">
+      <path
+         id="path1508"
+         style="fill:#465dce;stroke-width:6.814;stroke-dashoffset:28.1697;stop-color:#000000"
+         inkscape:transform-center-x="1.275891e-06"
+         transform="matrix(0.14315286,0,0,0.14315286,24.580767,-1.2305042)"
+         d="m 567.59305,224.10728 -92.41288,160.0638 -184.82574,-1e-5 -92.41287,-160.06379 0,-55.44772 369.65148,0 z"
+         sodipodi:nodetypes="ccccccc" />
+      <path
+         sodipodi:type="star"
+         style="fill:#465dce;fill-opacity:1;stroke:none;stroke-width:6.814;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:28.1697;stroke-opacity:1;stop-color:#000000"
+         id="path5402-4"
+         inkscape:flatsided="false"
+         sodipodi:sides="3"
+         sodipodi:cx="382.7673"
+         sodipodi:cy="224.10728"
+         sodipodi:r1="184.82574"
+         sodipodi:r2="184.82574"
+         sodipodi:arg1="0"
+         sodipodi:arg2="1.0471976"
+         inkscape:rounded="0"
+         inkscape:randomized="0"
+         transform="matrix(0.14315286,0,0,0.14315286,24.580767,-9.1680031)"
+         inkscape:transform-center-x="1.275891e-06"
+         d="m 567.59305,224.10728 -92.41288,160.0638 -184.82574,-1e-5 -92.41287,-160.06379 92.41287,-160.063786 184.82575,5e-6 z" />
+      <path
+         id="path848-6-4"
+         style="fill:#1bb0ff;stroke-width:0.87351;stroke-dashoffset:28.1697;stop-color:#000000"
+         d="M 103.06841,22.913594 91.221709,43.432691 H 67.528293 L 55.681591,22.913594 67.528293,2.3945018 h 23.693416 z" />
+    </g>
+    <g
+       id="g1759"
+       inkscape:export-filename="/Users/rebelrae/Hex Warriors/Assets/Images/Lava.png"
+       inkscape:export-xdpi="57.599983"
+       inkscape:export-ydpi="57.599983">
+      <path
+         id="path1510"
+         style="fill:#ff1543;stroke-width:6.814;stroke-dashoffset:28.1697;stop-color:#000000"
+         inkscape:transform-center-x="1.275891e-06"
+         transform="matrix(0.14315286,0,0,0.14315286,-28.335899,-1.2305094)"
+         d="m 567.59305,224.10728 -92.41288,160.0638 -184.82574,-1e-5 -92.41287,-160.06379 0,-55.44772 369.65147,4e-5 z"
+         sodipodi:nodetypes="ccccccc" />
+      <path
+         sodipodi:type="star"
+         style="fill:#ff1543;fill-opacity:1;stroke:none;stroke-width:6.814;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:28.1697;stroke-opacity:1;stop-color:#000000"
+         id="path5402-4-1"
+         inkscape:flatsided="false"
+         sodipodi:sides="3"
+         sodipodi:cx="382.7673"
+         sodipodi:cy="224.10728"
+         sodipodi:r1="184.82574"
+         sodipodi:r2="184.82574"
+         sodipodi:arg1="0"
+         sodipodi:arg2="1.0471976"
+         inkscape:rounded="0"
+         inkscape:randomized="0"
+         transform="matrix(0.14315286,0,0,0.14315286,-28.335899,-9.1680083)"
+         inkscape:transform-center-x="1.275891e-06"
+         d="m 567.59305,224.10728 -92.41288,160.0638 -184.82574,-1e-5 -92.41287,-160.06379 92.41287,-160.063786 184.82575,5e-6 z" />
+      <path
+         id="path848-6-4-8"
+         style="fill:#ff8c35;fill-opacity:1;stroke-width:0.87351;stroke-dashoffset:28.1697;stop-color:#000000"
+         d="M 50.151748,22.913589 38.305043,43.432686 H 14.611627 L 2.7649268,22.913589 14.611627,2.3944966 h 23.693416 z" />
+    </g>
+    <g
+       id="g1749"
+       inkscape:export-filename="/Users/rebelrae/Hex Warriors/Assets/Images/Grass.png"
+       inkscape:export-xdpi="57.599983"
+       inkscape:export-ydpi="57.599983">
+      <path
+         id="path1512"
+         style="fill:#008b22;stroke-width:6.814;stroke-dashoffset:28.1697;stop-color:#000000"
+         inkscape:transform-center-x="1.275891e-06"
+         transform="matrix(0.14315286,0,0,0.14315286,77.497434,-1.2305048)"
+         d="m 567.59305,224.10728 -92.41288,160.0638 -184.82574,-1e-5 -92.41287,-160.06379 1e-5,-55.44771 369.65146,-1e-5 z"
+         sodipodi:nodetypes="ccccccc" />
+      <path
+         sodipodi:type="star"
+         style="fill:#008b22;fill-opacity:1;stroke:none;stroke-width:6.814;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:28.1697;stroke-opacity:1;stop-color:#000000"
+         id="path5402-4-2"
+         inkscape:flatsided="false"
+         sodipodi:sides="3"
+         sodipodi:cx="382.7673"
+         sodipodi:cy="224.10728"
+         sodipodi:r1="184.82574"
+         sodipodi:r2="184.82574"
+         sodipodi:arg1="0"
+         sodipodi:arg2="1.0471976"
+         inkscape:rounded="0"
+         inkscape:randomized="0"
+         transform="matrix(0.14315286,0,0,0.14315286,77.497434,-9.1680037)"
+         inkscape:transform-center-x="1.275891e-06"
+         d="m 567.59305,224.10728 -92.41288,160.0638 -184.82574,-1e-5 -92.41287,-160.06379 92.41287,-160.063786 184.82575,5e-6 z" />
+      <path
+         sodipodi:type="star"
+         style="fill:#00be22;fill-opacity:1;stroke:none;stroke-width:6.814;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:28.1697;stroke-opacity:1;stop-color:#000000"
+         id="path848-6-4-4"
+         inkscape:flatsided="false"
+         sodipodi:sides="3"
+         sodipodi:cx="382.7673"
+         sodipodi:cy="224.10728"
+         sodipodi:r1="184.82574"
+         sodipodi:r2="184.82574"
+         sodipodi:arg1="0"
+         sodipodi:arg2="1.0471976"
+         inkscape:rounded="0"
+         inkscape:randomized="0"
+         transform="matrix(0.12833187,0,0,0.12833187,83.170427,-5.8465116)"
+         d="m 567.59305,224.10728 -92.41288,160.0638 -184.82574,-1e-5 -92.41287,-160.06379 92.41287,-160.063786 184.82575,5e-6 z" />
+    </g>
+    <g
+       id="g1739"
+       inkscape:export-filename="/Users/rebelrae/Hex Warriors/Assets/Images/Psychic.png"
+       inkscape:export-xdpi="57.599983"
+       inkscape:export-ydpi="57.599983">
+      <path
+         id="path1348"
+         style="fill:#f978ce;stroke-width:6.814;stroke-dashoffset:28.1697;stop-color:#000000"
+         inkscape:transform-center-x="1.275891e-06"
+         transform="matrix(0.14315286,0,0,0.14315286,183.33077,-1.2305094)"
+         d="m 567.59305,224.10728 -92.41288,160.0638 -184.82574,-1e-5 -92.41287,-160.06379 -2e-5,-55.44768 369.65145,0 z"
+         sodipodi:nodetypes="ccccccc" />
+      <path
+         sodipodi:type="star"
+         style="fill:#f978ce;fill-opacity:1;stroke:none;stroke-width:6.814;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:28.1697;stroke-opacity:1;stop-color:#000000"
+         id="path5402-4-7"
+         inkscape:flatsided="false"
+         sodipodi:sides="3"
+         sodipodi:cx="382.7673"
+         sodipodi:cy="224.10728"
+         sodipodi:r1="184.82574"
+         sodipodi:r2="184.82574"
+         sodipodi:arg1="0"
+         sodipodi:arg2="1.0471976"
+         inkscape:rounded="0"
+         inkscape:randomized="0"
+         transform="matrix(0.14315286,0,0,0.14315286,183.33077,-9.1680021)"
+         inkscape:transform-center-x="1.275891e-06"
+         d="m 567.59305,224.10728 -92.41288,160.0638 -184.82574,-1e-5 -92.41287,-160.06379 92.41287,-160.063786 184.82575,5e-6 z" />
+      <path
+         id="path848-6-4-9"
+         style="fill:#c142c1;fill-opacity:1;stroke-width:0.87351;stroke-dashoffset:28.1697;stop-color:#000000"
+         d="m 261.81841,22.913595 -11.8467,20.519097 h -23.69342 l -11.8467,-20.519097 11.8467,-20.5190922 h 23.69342 z" />
+    </g>
+    <g
+       id="g1734"
+       inkscape:export-filename="/Users/rebelrae/Hex Warriors/Assets/Images/Sand.png"
+       inkscape:export-xdpi="57.599983"
+       inkscape:export-ydpi="57.599983">
+      <path
+         id="path1142"
+         style="fill:#d59537;stroke-width:6.814;stroke-dashoffset:28.1697;stop-color:#000000"
+         inkscape:transform-center-x="1.275891e-06"
+         transform="matrix(0.14315286,0,0,0.14315286,236.24743,-1.2305094)"
+         d="m 567.59305,224.10728 -92.41288,160.0638 -184.82574,-1e-5 -92.41287,-160.06379 5e-5,-55.44767 369.65144,0 z"
+         sodipodi:nodetypes="ccccccc" />
+      <path
+         sodipodi:type="star"
+         style="fill:#d59537;fill-opacity:1;stroke:none;stroke-width:6.814;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:28.1697;stroke-opacity:1;stop-color:#000000"
+         id="path5402-4-9"
+         inkscape:flatsided="false"
+         sodipodi:sides="3"
+         sodipodi:cx="382.7673"
+         sodipodi:cy="224.10728"
+         sodipodi:r1="184.82574"
+         sodipodi:r2="184.82574"
+         sodipodi:arg1="0"
+         sodipodi:arg2="1.0471976"
+         inkscape:rounded="0"
+         inkscape:randomized="0"
+         transform="matrix(0.14315286,0,0,0.14315286,236.24743,-9.1680023)"
+         inkscape:transform-center-x="1.275891e-06"
+         d="m 567.59305,224.10728 -92.41288,160.0638 -184.82574,-1e-5 -92.41287,-160.06379 92.41287,-160.063786 184.82575,5e-6 z" />
+      <path
+         id="path848-6-4-3"
+         style="fill:#e7bb4d;fill-opacity:1;stroke-width:0.87351;stroke-dashoffset:28.1697;stop-color:#000000"
+         d="m 314.73508,22.913595 -11.8467,20.519097 H 279.19496 L 267.34827,22.913595 279.19496,2.3945025 h 23.69342 z" />
+    </g>
+    <path
+       sodipodi:type="star"
+       style="fill:#d59537;fill-opacity:1;stroke:none;stroke-width:6.814;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:28.1697;stroke-opacity:1;stop-color:#000000"
+       id="path5402-4-9-1"
+       inkscape:flatsided="false"
+       sodipodi:sides="3"
+       sodipodi:cx="382.7673"
+       sodipodi:cy="224.10728"
+       sodipodi:r1="184.82574"
+       sodipodi:r2="184.82574"
+       sodipodi:arg1="0"
+       sodipodi:arg2="1.0471976"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       transform="matrix(0.26458333,0,0,0.26458333,32.86333,-478.35134)"
+       inkscape:transform-center-x="1.275891e-06"
+       d="m 567.59305,224.10728 -92.41288,160.0638 -184.82574,-1e-5 -92.41287,-160.06379 92.41287,-160.063786 184.82575,5e-6 z" />
+    <path
+       id="path848-6-4-3-0"
+       style="fill:#e7bb4d;fill-opacity:1;stroke-width:1.76703;stroke-dashoffset:28.1697;stop-color:#000000"
+       d="m 182.06675,-419.05629 -23.96478,41.50822 H 110.1724 l -23.96477,-41.50822 23.96477,-41.50821 h 47.92957 z" />
+    <path
+       sodipodi:type="star"
+       style="fill:#d59537;fill-opacity:1;stroke:none;stroke-width:6.814;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:28.1697;stroke-opacity:1;stop-color:#000000"
+       id="path5402-4-9-1-7"
+       inkscape:flatsided="false"
+       sodipodi:sides="3"
+       sodipodi:cx="382.7673"
+       sodipodi:cy="224.10728"
+       sodipodi:r1="184.82574"
+       sodipodi:r2="184.82574"
+       sodipodi:arg1="0"
+       sodipodi:arg2="1.0471976"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       transform="matrix(0.26458333,0,0,0.26458333,238.66053,-490.61708)"
+       inkscape:transform-center-x="1.275891e-06"
+       d="m 567.59305,224.10728 -92.41288,160.0638 -184.82574,-1e-5 -92.41287,-160.06379 92.41287,-160.063786 184.82575,5e-6 z" />
+    <path
+       id="path848-6-4-3-0-6"
+       style="fill:#e7bb4d;fill-opacity:1;stroke-width:1.76703;stroke-dashoffset:28.1697;stop-color:#000000"
+       d="m 387.86395,-431.32203 -23.96478,41.50822 H 315.9696 l -23.96477,-41.50822 23.96477,-41.50821 h 47.92957 z" />
+    <g
+       id="g1744"
+       inkscape:export-filename="/Users/rebelrae/Hex Warriors/Assets/Images/Snow.png"
+       inkscape:export-xdpi="57.599983"
+       inkscape:export-ydpi="57.599983">
+      <path
+         id="path1506"
+         style="fill:#b3b3b3;stroke-width:6.814;stroke-dashoffset:28.1697;stop-color:#000000"
+         inkscape:transform-center-x="1.275891e-06"
+         transform="matrix(0.14315286,0,0,0.14315286,130.4141,-1.2305094)"
+         d="m 567.59305,224.10728 -92.41288,160.0638 -184.82574,-1e-5 -92.41287,-160.06379 1e-5,-55.44768 369.65149,0 z"
+         sodipodi:nodetypes="ccccccc" />
+      <path
+         sodipodi:type="star"
+         style="fill:#b3b3b3;fill-opacity:1;stroke:none;stroke-width:6.814;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:28.1697;stroke-opacity:1;stop-color:#000000"
+         id="path5402-4-9-1-3"
+         inkscape:flatsided="false"
+         sodipodi:sides="3"
+         sodipodi:cx="382.7673"
+         sodipodi:cy="224.10728"
+         sodipodi:r1="184.82574"
+         sodipodi:r2="184.82574"
+         sodipodi:arg1="0"
+         sodipodi:arg2="1.0471976"
+         inkscape:rounded="0"
+         inkscape:randomized="0"
+         transform="matrix(0.14315286,0,0,0.14315286,130.4141,-9.1680043)"
+         inkscape:transform-center-x="1.275891e-06"
+         d="m 567.59305,224.10728 -92.41288,160.0638 -184.82574,-1e-5 -92.41287,-160.06379 92.41287,-160.063786 184.82575,5e-6 z" />
+      <path
+         id="path848-6-4-3-0-9"
+         style="fill:#e7f9f6;fill-opacity:1;stroke-width:0.87351;stroke-dashoffset:28.1697;stop-color:#000000"
+         d="m 208.90175,22.913593 -11.8467,20.519097 h -23.69342 l -11.8467,-20.519097 11.8467,-20.5190924 h 23.69342 z" />
+    </g>
+    <g
+       id="g1799"
+       inkscape:export-filename="/Users/rebelrae/Hex Warriors/Assets/Images/Water.png"
+       inkscape:export-xdpi="57.599983"
+       inkscape:export-ydpi="57.599983"
+       transform="matrix(1,0,0,0.79917908,-1.2605024e-6,58.307668)">
+      <path
+         id="path1793"
+         style="fill:#465dce;stroke-width:6.814;stroke-dashoffset:28.1697;stop-color:#000000"
+         inkscape:transform-center-x="1.275891e-06"
+         transform="matrix(0.14315286,0,0,0.14315286,24.580767,-1.2305042)"
+         d="m 567.59305,224.10728 -92.41288,160.0638 -184.82574,-1e-5 -92.41287,-160.06379 v -55.44772 h 369.65148 z"
+         sodipodi:nodetypes="ccccccc" />
+      <path
+         sodipodi:type="star"
+         style="fill:#465dce;fill-opacity:1;stroke:none;stroke-width:6.814;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:28.1697;stroke-opacity:1;stop-color:#000000"
+         id="path1795"
+         inkscape:flatsided="false"
+         sodipodi:sides="3"
+         sodipodi:cx="382.7673"
+         sodipodi:cy="224.10728"
+         sodipodi:r1="184.82574"
+         sodipodi:r2="184.82574"
+         sodipodi:arg1="0"
+         sodipodi:arg2="1.0471976"
+         inkscape:rounded="0"
+         inkscape:randomized="0"
+         transform="matrix(0.14315286,0,0,0.14315286,24.580767,-9.1680031)"
+         inkscape:transform-center-x="1.275891e-06"
+         d="m 567.59305,224.10728 -92.41288,160.0638 -184.82574,-1e-5 -92.41287,-160.06379 92.41287,-160.063786 184.82575,5e-6 z" />
+      <path
+         id="path1797"
+         style="fill:#1bb0ff;stroke-width:0.87351;stroke-dashoffset:28.1697;stop-color:#000000"
+         d="M 103.06841,22.913594 91.221709,43.432691 H 67.528293 L 55.681591,22.913594 67.528293,2.3945018 h 23.693416 z" />
+    </g>
+    <g
+       id="g1807"
+       inkscape:export-filename="/Users/rebelrae/Hex Warriors/Assets/Images/Lava.png"
+       inkscape:export-xdpi="57.599983"
+       inkscape:export-ydpi="57.599983"
+       transform="matrix(1,0,0,0.79917908,-1.2605024e-6,58.307668)">
+      <path
+         id="path1801"
+         style="fill:#ff1543;stroke-width:6.814;stroke-dashoffset:28.1697;stop-color:#000000"
+         inkscape:transform-center-x="1.275891e-06"
+         transform="matrix(0.14315286,0,0,0.14315286,-28.335899,-1.2305094)"
+         d="m 567.59305,224.10728 -92.41288,160.0638 -184.82574,-1e-5 -92.41287,-160.06379 v -55.44772 l 369.65147,4e-5 z"
+         sodipodi:nodetypes="ccccccc" />
+      <path
+         sodipodi:type="star"
+         style="fill:#ff1543;fill-opacity:1;stroke:none;stroke-width:6.814;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:28.1697;stroke-opacity:1;stop-color:#000000"
+         id="path1803"
+         inkscape:flatsided="false"
+         sodipodi:sides="3"
+         sodipodi:cx="382.7673"
+         sodipodi:cy="224.10728"
+         sodipodi:r1="184.82574"
+         sodipodi:r2="184.82574"
+         sodipodi:arg1="0"
+         sodipodi:arg2="1.0471976"
+         inkscape:rounded="0"
+         inkscape:randomized="0"
+         transform="matrix(0.14315286,0,0,0.14315286,-28.335899,-9.1680083)"
+         inkscape:transform-center-x="1.275891e-06"
+         d="m 567.59305,224.10728 -92.41288,160.0638 -184.82574,-1e-5 -92.41287,-160.06379 92.41287,-160.063786 184.82575,5e-6 z" />
+      <path
+         id="path1805"
+         style="fill:#ff8c35;fill-opacity:1;stroke-width:0.87351;stroke-dashoffset:28.1697;stop-color:#000000"
+         d="M 50.151748,22.913589 38.305043,43.432686 H 14.611627 L 2.7649268,22.913589 14.611627,2.3944966 h 23.693416 z" />
+    </g>
+    <g
+       id="g1815"
+       inkscape:export-filename="/Users/rebelrae/Hex Warriors/Assets/Images/Grass.png"
+       inkscape:export-xdpi="57.599983"
+       inkscape:export-ydpi="57.599983"
+       transform="matrix(1,0,0,0.79917908,-1.2605024e-6,58.307668)">
+      <path
+         id="path1809"
+         style="fill:#008b22;stroke-width:6.814;stroke-dashoffset:28.1697;stop-color:#000000"
+         inkscape:transform-center-x="1.275891e-06"
+         transform="matrix(0.14315286,0,0,0.14315286,77.497434,-1.2305048)"
+         d="m 567.59305,224.10728 -92.41288,160.0638 -184.82574,-1e-5 -92.41287,-160.06379 1e-5,-55.44771 369.65146,-1e-5 z"
+         sodipodi:nodetypes="ccccccc" />
+      <path
+         sodipodi:type="star"
+         style="fill:#008b22;fill-opacity:1;stroke:none;stroke-width:6.814;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:28.1697;stroke-opacity:1;stop-color:#000000"
+         id="path1811"
+         inkscape:flatsided="false"
+         sodipodi:sides="3"
+         sodipodi:cx="382.7673"
+         sodipodi:cy="224.10728"
+         sodipodi:r1="184.82574"
+         sodipodi:r2="184.82574"
+         sodipodi:arg1="0"
+         sodipodi:arg2="1.0471976"
+         inkscape:rounded="0"
+         inkscape:randomized="0"
+         transform="matrix(0.14315286,0,0,0.14315286,77.497434,-9.1680037)"
+         inkscape:transform-center-x="1.275891e-06"
+         d="m 567.59305,224.10728 -92.41288,160.0638 -184.82574,-1e-5 -92.41287,-160.06379 92.41287,-160.063786 184.82575,5e-6 z" />
+      <path
+         sodipodi:type="star"
+         style="fill:#00be22;fill-opacity:1;stroke:none;stroke-width:6.814;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:28.1697;stroke-opacity:1;stop-color:#000000"
+         id="path1813"
+         inkscape:flatsided="false"
+         sodipodi:sides="3"
+         sodipodi:cx="382.7673"
+         sodipodi:cy="224.10728"
+         sodipodi:r1="184.82574"
+         sodipodi:r2="184.82574"
+         sodipodi:arg1="0"
+         sodipodi:arg2="1.0471976"
+         inkscape:rounded="0"
+         inkscape:randomized="0"
+         transform="matrix(0.12833187,0,0,0.12833187,83.170427,-5.8465116)"
+         d="m 567.59305,224.10728 -92.41288,160.0638 -184.82574,-1e-5 -92.41287,-160.06379 92.41287,-160.063786 184.82575,5e-6 z" />
+    </g>
+    <g
+       id="g1823"
+       inkscape:export-filename="/Users/rebelrae/Hex Warriors/Assets/Images/Psychic.png"
+       inkscape:export-xdpi="57.599983"
+       inkscape:export-ydpi="57.599983"
+       transform="matrix(1,0,0,0.79917908,-1.2605024e-6,58.307668)">
+      <path
+         id="path1817"
+         style="fill:#f978ce;stroke-width:6.814;stroke-dashoffset:28.1697;stop-color:#000000"
+         inkscape:transform-center-x="1.275891e-06"
+         transform="matrix(0.14315286,0,0,0.14315286,183.33077,-1.2305094)"
+         d="m 567.59305,224.10728 -92.41288,160.0638 -184.82574,-1e-5 -92.41287,-160.06379 -2e-5,-55.44768 h 369.65145 z"
+         sodipodi:nodetypes="ccccccc" />
+      <path
+         sodipodi:type="star"
+         style="fill:#f978ce;fill-opacity:1;stroke:none;stroke-width:6.814;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:28.1697;stroke-opacity:1;stop-color:#000000"
+         id="path1819"
+         inkscape:flatsided="false"
+         sodipodi:sides="3"
+         sodipodi:cx="382.7673"
+         sodipodi:cy="224.10728"
+         sodipodi:r1="184.82574"
+         sodipodi:r2="184.82574"
+         sodipodi:arg1="0"
+         sodipodi:arg2="1.0471976"
+         inkscape:rounded="0"
+         inkscape:randomized="0"
+         transform="matrix(0.14315286,0,0,0.14315286,183.33077,-9.1680021)"
+         inkscape:transform-center-x="1.275891e-06"
+         d="m 567.59305,224.10728 -92.41288,160.0638 -184.82574,-1e-5 -92.41287,-160.06379 92.41287,-160.063786 184.82575,5e-6 z" />
+      <path
+         id="path1821"
+         style="fill:#c142c1;fill-opacity:1;stroke-width:0.87351;stroke-dashoffset:28.1697;stop-color:#000000"
+         d="m 261.81841,22.913595 -11.8467,20.519097 h -23.69342 l -11.8467,-20.519097 11.8467,-20.5190922 h 23.69342 z" />
+    </g>
+    <g
+       id="g1831"
+       inkscape:export-filename="/Users/rebelrae/Hex Warriors/Assets/Images/Sand.png"
+       inkscape:export-xdpi="57.599983"
+       inkscape:export-ydpi="57.599983"
+       transform="matrix(1,0,0,0.79917908,-1.2605024e-6,58.307668)">
+      <path
+         id="path1825"
+         style="fill:#d59537;stroke-width:6.814;stroke-dashoffset:28.1697;stop-color:#000000"
+         inkscape:transform-center-x="1.275891e-06"
+         transform="matrix(0.14315286,0,0,0.14315286,236.24743,-1.2305094)"
+         d="m 567.59305,224.10728 -92.41288,160.0638 -184.82574,-1e-5 -92.41287,-160.06379 5e-5,-55.44767 h 369.65144 z"
+         sodipodi:nodetypes="ccccccc" />
+      <path
+         sodipodi:type="star"
+         style="fill:#d59537;fill-opacity:1;stroke:none;stroke-width:6.814;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:28.1697;stroke-opacity:1;stop-color:#000000"
+         id="path1827"
+         inkscape:flatsided="false"
+         sodipodi:sides="3"
+         sodipodi:cx="382.7673"
+         sodipodi:cy="224.10728"
+         sodipodi:r1="184.82574"
+         sodipodi:r2="184.82574"
+         sodipodi:arg1="0"
+         sodipodi:arg2="1.0471976"
+         inkscape:rounded="0"
+         inkscape:randomized="0"
+         transform="matrix(0.14315286,0,0,0.14315286,236.24743,-9.1680023)"
+         inkscape:transform-center-x="1.275891e-06"
+         d="m 567.59305,224.10728 -92.41288,160.0638 -184.82574,-1e-5 -92.41287,-160.06379 92.41287,-160.063786 184.82575,5e-6 z" />
+      <path
+         id="path1829"
+         style="fill:#e7bb4d;fill-opacity:1;stroke-width:0.87351;stroke-dashoffset:28.1697;stop-color:#000000"
+         d="m 314.73508,22.913595 -11.8467,20.519097 H 279.19496 L 267.34827,22.913595 279.19496,2.3945025 h 23.69342 z" />
+    </g>
+    <g
+       id="g1839"
+       inkscape:export-filename="/Users/rebelrae/Hex Warriors/Assets/Images/Snow.png"
+       inkscape:export-xdpi="57.599983"
+       inkscape:export-ydpi="57.599983"
+       transform="matrix(1,0,0,0.79917908,-1.2605024e-6,58.307668)">
+      <path
+         id="path1833"
+         style="fill:#b3b3b3;stroke-width:6.814;stroke-dashoffset:28.1697;stop-color:#000000"
+         inkscape:transform-center-x="1.275891e-06"
+         transform="matrix(0.14315286,0,0,0.14315286,130.4141,-1.2305094)"
+         d="m 567.59305,224.10728 -92.41288,160.0638 -184.82574,-1e-5 -92.41287,-160.06379 1e-5,-55.44768 h 369.65149 z"
+         sodipodi:nodetypes="ccccccc" />
+      <path
+         sodipodi:type="star"
+         style="fill:#b3b3b3;fill-opacity:1;stroke:none;stroke-width:6.814;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:28.1697;stroke-opacity:1;stop-color:#000000"
+         id="path1835"
+         inkscape:flatsided="false"
+         sodipodi:sides="3"
+         sodipodi:cx="382.7673"
+         sodipodi:cy="224.10728"
+         sodipodi:r1="184.82574"
+         sodipodi:r2="184.82574"
+         sodipodi:arg1="0"
+         sodipodi:arg2="1.0471976"
+         inkscape:rounded="0"
+         inkscape:randomized="0"
+         transform="matrix(0.14315286,0,0,0.14315286,130.4141,-9.1680043)"
+         inkscape:transform-center-x="1.275891e-06"
+         d="m 567.59305,224.10728 -92.41288,160.0638 -184.82574,-1e-5 -92.41287,-160.06379 92.41287,-160.063786 184.82575,5e-6 z" />
+      <path
+         id="path1837"
+         style="fill:#e7f9f6;fill-opacity:1;stroke-width:0.87351;stroke-dashoffset:28.1697;stop-color:#000000"
+         d="m 208.90175,22.913593 -11.8467,20.519097 h -23.69342 l -11.8467,-20.519097 11.8467,-20.5190924 h 23.69342 z" />
+    </g>
+    <g
+       id="g1799-5"
+       inkscape:export-filename="/Users/rebelrae/Hex Warriors/Assets/Images/Water.png"
+       inkscape:export-xdpi="57.599983"
+       inkscape:export-ydpi="57.599983"
+       transform="matrix(1,0,0,0.52714945,-1.2605023e-6,108.00695)">
+      <path
+         id="path1793-9"
+         style="fill:#465dce;stroke-width:6.814;stroke-dashoffset:28.1697;stop-color:#000000"
+         inkscape:transform-center-x="1.275891e-06"
+         transform="matrix(0.14315286,0,0,0.14315286,24.580767,-1.2305042)"
+         d="m 567.59305,299.51474 -92.41288,160.0638 -184.82574,-10e-6 -92.41287,-160.06379 V 168.65956 h 369.65148 z"
+         sodipodi:nodetypes="ccccccc" />
+      <path
+         sodipodi:type="star"
+         style="fill:#465dce;fill-opacity:1;stroke:none;stroke-width:6.814;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:28.1697;stroke-opacity:1;stop-color:#000000"
+         id="path1795-9"
+         inkscape:flatsided="false"
+         sodipodi:sides="3"
+         sodipodi:cx="382.7673"
+         sodipodi:cy="224.10728"
+         sodipodi:r1="184.82574"
+         sodipodi:r2="184.82574"
+         sodipodi:arg1="0"
+         sodipodi:arg2="1.0471976"
+         inkscape:rounded="0"
+         inkscape:randomized="0"
+         transform="matrix(0.14315286,0,0,0.14315286,24.580767,-9.1680031)"
+         inkscape:transform-center-x="1.275891e-06"
+         d="m 567.59305,224.10728 -92.41288,160.0638 -184.82574,-1e-5 -92.41287,-160.06379 92.41287,-160.063786 184.82575,5e-6 z" />
+      <path
+         id="path1797-0"
+         style="fill:#1bb0ff;stroke-width:0.87351;stroke-dashoffset:28.1697;stop-color:#000000"
+         d="M 103.06841,22.913594 91.221709,43.432691 H 67.528293 L 55.681591,22.913594 67.528293,2.3945018 h 23.693416 z" />
+    </g>
+    <g
+       id="g2301"
+       inkscape:export-filename="/Users/rebelrae/Hex Warriors/Assets/Images/Lava.png"
+       inkscape:export-xdpi="57.599983"
+       inkscape:export-ydpi="57.599983">
+      <g
+         id="g1807-2"
+         inkscape:export-filename="/Users/rebelrae/Hex Warriors/Assets/Images/Lava.png"
+         inkscape:export-xdpi="57.599983"
+         inkscape:export-ydpi="57.599983"
+         transform="matrix(1,0,0,0.52714945,-1.2605023e-6,108.00695)">
+        <path
+           id="path1801-8"
+           style="fill:#ff1543;stroke-width:6.814;stroke-dashoffset:28.1697;stop-color:#000000"
+           inkscape:transform-center-x="1.275891e-06"
+           transform="matrix(0.14315286,0,0,0.14315286,-28.335899,-1.2305094)"
+           d="m 567.59305,299.51478 -92.41288,160.0638 -184.82574,-10e-6 -92.41287,-160.06379 V 168.65956 l 369.65147,4e-5 z"
+           sodipodi:nodetypes="ccccccc" />
+        <path
+           sodipodi:type="star"
+           style="fill:#ff1543;fill-opacity:1;stroke:none;stroke-width:6.814;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:28.1697;stroke-opacity:1;stop-color:#000000"
+           id="path1803-3"
+           inkscape:flatsided="false"
+           sodipodi:sides="3"
+           sodipodi:cx="382.7673"
+           sodipodi:cy="224.10728"
+           sodipodi:r1="184.82574"
+           sodipodi:r2="184.82574"
+           sodipodi:arg1="0"
+           sodipodi:arg2="1.0471976"
+           inkscape:rounded="0"
+           inkscape:randomized="0"
+           transform="matrix(0.14315286,0,0,0.14315286,-28.335899,-9.1680083)"
+           inkscape:transform-center-x="1.275891e-06"
+           d="m 567.59305,224.10728 -92.41288,160.0638 -184.82574,-1e-5 -92.41287,-160.06379 92.41287,-160.063786 184.82575,5e-6 z" />
+        <path
+           id="path1805-6"
+           style="fill:#ff8c35;fill-opacity:1;stroke-width:0.87351;stroke-dashoffset:28.1697;stop-color:#000000"
+           d="M 50.151748,22.913589 38.305043,43.432686 H 14.611627 L 2.7649268,22.913589 14.611627,2.3944966 h 23.693416 z" />
+      </g>
+    </g>
+    <path
+       sodipodi:type="star"
+       style="fill:none;fill-opacity:1;stroke:#fb2f8d;stroke-width:17.39528424;stroke-miterlimit:4;stroke-dasharray:17.39528424,17.39528424;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stroke-linejoin:round"
+       id="path1803-3-5"
+       inkscape:flatsided="false"
+       sodipodi:sides="3"
+       sodipodi:cx="382.7673"
+       sodipodi:cy="224.10728"
+       sodipodi:r1="184.82574"
+       sodipodi:r2="184.82574"
+       sodipodi:arg1="0"
+       sodipodi:arg2="1.0471976"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       transform="matrix(0.14315286,0,0,0.07546295,-81.252567,103.17397)"
+       inkscape:transform-center-x="1.275891e-06"
+       d="m 567.59305,224.10728 -92.41288,160.0638 -184.82574,-1e-5 -92.41287,-160.06379 92.41287,-160.063786 184.82575,5e-6 z"
+       inkscape:export-filename="/Users/rebelrae/Hex Warriors/Assets/Images/HoverDotted.png"
+       inkscape:export-xdpi="55.177387"
+       inkscape:export-ydpi="55.177387" />
+    <g
+       id="g1815-6"
+       inkscape:export-filename="/Users/rebelrae/Hex Warriors/Assets/Images/Grass.png"
+       inkscape:export-xdpi="57.599983"
+       inkscape:export-ydpi="57.599983"
+       transform="matrix(1,0,0,0.52714945,-1.2605023e-6,108.00695)">
+      <path
+         id="path1809-3"
+         style="fill:#008b22;stroke-width:6.814;stroke-dashoffset:28.1697;stop-color:#000000"
+         inkscape:transform-center-x="1.275891e-06"
+         transform="matrix(0.14315286,0,0,0.14315286,77.497434,-1.2305048)"
+         d="m 567.59305,299.51474 -92.41288,160.0638 -184.82574,-10e-6 -92.41287,-160.06379 1e-5,-130.85517 369.65146,-1e-5 z"
+         sodipodi:nodetypes="ccccccc" />
+      <path
+         sodipodi:type="star"
+         style="fill:#008b22;fill-opacity:1;stroke:none;stroke-width:6.814;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:28.1697;stroke-opacity:1;stop-color:#000000"
+         id="path1811-7"
+         inkscape:flatsided="false"
+         sodipodi:sides="3"
+         sodipodi:cx="382.7673"
+         sodipodi:cy="224.10728"
+         sodipodi:r1="184.82574"
+         sodipodi:r2="184.82574"
+         sodipodi:arg1="0"
+         sodipodi:arg2="1.0471976"
+         inkscape:rounded="0"
+         inkscape:randomized="0"
+         transform="matrix(0.14315286,0,0,0.14315286,77.497434,-9.1680037)"
+         inkscape:transform-center-x="1.275891e-06"
+         d="m 567.59305,224.10728 -92.41288,160.0638 -184.82574,-1e-5 -92.41287,-160.06379 92.41287,-160.063786 184.82575,5e-6 z" />
+      <path
+         sodipodi:type="star"
+         style="fill:#00be22;fill-opacity:1;stroke:none;stroke-width:6.814;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:28.1697;stroke-opacity:1;stop-color:#000000"
+         id="path1813-3"
+         inkscape:flatsided="false"
+         sodipodi:sides="3"
+         sodipodi:cx="382.7673"
+         sodipodi:cy="224.10728"
+         sodipodi:r1="184.82574"
+         sodipodi:r2="184.82574"
+         sodipodi:arg1="0"
+         sodipodi:arg2="1.0471976"
+         inkscape:rounded="0"
+         inkscape:randomized="0"
+         transform="matrix(0.12833187,0,0,0.12833187,83.170427,-5.8465116)"
+         d="m 567.59305,224.10728 -92.41288,160.0638 -184.82574,-1e-5 -92.41287,-160.06379 92.41287,-160.063786 184.82575,5e-6 z" />
+    </g>
+    <g
+       id="g1823-3"
+       inkscape:export-filename="/Users/rebelrae/Hex Warriors/Assets/Images/Psychic.png"
+       inkscape:export-xdpi="57.599983"
+       inkscape:export-ydpi="57.599983"
+       transform="matrix(1,0,0,0.52714945,-1.2605023e-6,108.00695)">
+      <path
+         id="path1817-8"
+         style="fill:#f978ce;stroke-width:6.814;stroke-dashoffset:28.1697;stop-color:#000000"
+         inkscape:transform-center-x="1.275891e-06"
+         transform="matrix(0.14315286,0,0,0.14315286,183.33077,-1.2305094)"
+         d="m 567.59305,299.51478 -92.41288,160.0638 -184.82574,-10e-6 -92.41287,-160.06379 -2e-5,-130.85518 h 369.65145 z"
+         sodipodi:nodetypes="ccccccc" />
+      <path
+         sodipodi:type="star"
+         style="fill:#f978ce;fill-opacity:1;stroke:none;stroke-width:6.814;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:28.1697;stroke-opacity:1;stop-color:#000000"
+         id="path1819-4"
+         inkscape:flatsided="false"
+         sodipodi:sides="3"
+         sodipodi:cx="382.7673"
+         sodipodi:cy="224.10728"
+         sodipodi:r1="184.82574"
+         sodipodi:r2="184.82574"
+         sodipodi:arg1="0"
+         sodipodi:arg2="1.0471976"
+         inkscape:rounded="0"
+         inkscape:randomized="0"
+         transform="matrix(0.14315286,0,0,0.14315286,183.33077,-9.1680021)"
+         inkscape:transform-center-x="1.275891e-06"
+         d="m 567.59305,224.10728 -92.41288,160.0638 -184.82574,-1e-5 -92.41287,-160.06379 92.41287,-160.063786 184.82575,5e-6 z" />
+      <path
+         id="path1821-6"
+         style="fill:#c142c1;fill-opacity:1;stroke-width:0.87351;stroke-dashoffset:28.1697;stop-color:#000000"
+         d="m 261.81841,22.913595 -11.8467,20.519097 h -23.69342 l -11.8467,-20.519097 11.8467,-20.5190922 h 23.69342 z" />
+    </g>
+    <g
+       id="g2306"
+       inkscape:export-filename="/Users/rebelrae/Hex Warriors/Assets/Images/Sand.png"
+       inkscape:export-xdpi="57.599983"
+       inkscape:export-ydpi="57.599983">
+      <path
+         id="path1825-0"
+         style="fill:#d59537;stroke-width:0.708221;stroke-dashoffset:28.1697;stop-color:#000000"
+         inkscape:transform-center-x="1.275891e-06"
+         d="m 317.5,129.96056 -13.22917,12.07888 H 277.8125 l -13.22917,-12.07888 1e-5,-9.87472 H 317.5 Z"
+         sodipodi:nodetypes="ccccccc" />
+      <path
+         sodipodi:type="star"
+         style="fill:#d59537;fill-opacity:1;stroke:none;stroke-width:6.814;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:28.1697;stroke-opacity:1;stop-color:#000000"
+         id="path1827-1"
+         inkscape:flatsided="false"
+         sodipodi:sides="3"
+         sodipodi:cx="382.7673"
+         sodipodi:cy="224.10728"
+         sodipodi:r1="184.82574"
+         sodipodi:r2="184.82574"
+         sodipodi:arg1="0"
+         sodipodi:arg2="1.0471976"
+         inkscape:rounded="0"
+         inkscape:randomized="0"
+         transform="matrix(0.14315286,0,0,0.07546295,236.24743,103.17404)"
+         inkscape:transform-center-x="1.275891e-06"
+         d="m 567.59305,224.10728 -92.41288,160.0638 -184.82574,-1e-5 -92.41287,-160.06379 92.41287,-160.063786 184.82575,5e-6 z" />
+      <path
+         id="path1829-6"
+         style="fill:#e7bb4d;fill-opacity:1;stroke-width:0.634212;stroke-dashoffset:28.1697;stop-color:#000000"
+         d="m 314.73508,120.08584 -11.8467,10.81663 h -23.69342 l -11.84669,-10.81663 11.84669,-10.81663 h 23.69342 z" />
+    </g>
+    <g
+       id="g1839-5"
+       inkscape:export-filename="/Users/rebelrae/Hex Warriors/Assets/Images/Snow.png"
+       inkscape:export-xdpi="57.599983"
+       inkscape:export-ydpi="57.599983"
+       transform="matrix(1,0,0,0.52714945,-1.2605023e-6,108.00695)">
+      <path
+         id="path1833-9"
+         style="fill:#b3b3b3;stroke-width:6.814;stroke-dashoffset:28.1697;stop-color:#000000"
+         inkscape:transform-center-x="1.275891e-06"
+         transform="matrix(0.14315286,0,0,0.14315286,130.4141,-1.2305094)"
+         d="m 567.59305,299.51478 -92.41288,160.0638 -184.82574,-10e-6 -92.41287,-160.06379 1e-5,-130.85518 h 369.65149 z"
+         sodipodi:nodetypes="ccccccc" />
+      <path
+         sodipodi:type="star"
+         style="fill:#b3b3b3;fill-opacity:1;stroke:none;stroke-width:6.814;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:28.1697;stroke-opacity:1;stop-color:#000000"
+         id="path1835-5"
+         inkscape:flatsided="false"
+         sodipodi:sides="3"
+         sodipodi:cx="382.7673"
+         sodipodi:cy="224.10728"
+         sodipodi:r1="184.82574"
+         sodipodi:r2="184.82574"
+         sodipodi:arg1="0"
+         sodipodi:arg2="1.0471976"
+         inkscape:rounded="0"
+         inkscape:randomized="0"
+         transform="matrix(0.14315286,0,0,0.14315286,130.4141,-9.1680043)"
+         inkscape:transform-center-x="1.275891e-06"
+         d="m 567.59305,224.10728 -92.41288,160.0638 -184.82574,-1e-5 -92.41287,-160.06379 92.41287,-160.063786 184.82575,5e-6 z" />
+      <path
+         id="path1837-8"
+         style="fill:#e7f9f6;fill-opacity:1;stroke-width:0.87351;stroke-dashoffset:28.1697;stop-color:#000000"
+         d="m 208.90175,22.913593 -11.8467,20.519097 h -23.69342 l -11.8467,-20.519097 11.8467,-20.5190924 h 23.69342 z" />
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Warrior Base">
+    <g
+       id="g9135"
+       transform="translate(-36.537532,-5.4012004)"
+       inkscape:export-filename="/Users/rebelrae/Hex Warriors/Assets/Images/WormLava.png"
+       inkscape:export-xdpi="116.51345"
+       inkscape:export-ydpi="116.51345">
+      <g
+         id="g9109">
+        <path
+           style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#fd7f2c;fill-opacity:1;stroke:#862d2c;stroke-width:0.165;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+           d="m 19.658744,96.182467 c 0,0 3.102757,4.120783 5.400846,4.940353 2.247188,0.80142 5.000456,0.0383 5.000456,0.0383 l 2.317648,-1.163364 c 0,0 -0.07168,-2.907537 -1.664536,-4.032079 -1.792009,-1.265142 -4.960142,-2.697963 -7.127661,-2.360706 -1.547094,0.240721 -3.926753,2.577526 -3.926753,2.577526 z"
+           id="path6103"
+           sodipodi:nodetypes="csccssc" />
+        <g
+           id="g9100">
+          <g
+             id="g9093">
+            <path
+               style="fill:#fdb49f;fill-opacity:1;stroke:#ca8459;stroke-width:0.165;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+               d="m 22.91139,94.197168 c 0,0 0.50879,0.440749 0.689616,0.753085 0.180826,0.312335 0.39534,1.120929 0.39534,1.120929 0,0 0.589282,-0.807445 0.690427,-1.282221 0.126208,-0.592425 -0.151046,-1.220372 -0.134607,-1.812166 0.01644,-0.591794 0.233237,-1.738598 0.233237,-1.738598 0,0 -0.808593,0.949539 -1.120929,1.442701 -0.312335,0.493162 -0.753084,1.51627 -0.753084,1.51627 z"
+               id="path6271"
+               sodipodi:nodetypes="cscsscsc" />
+            <path
+               style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#fdb49f;fill-opacity:1;stroke:#ca8459;stroke-width:0.165;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+               d="m 28.39927,98.040588 c 0,0 1.066086,-1.061514 1.543952,-1.702625 0.477866,-0.64111 1.323244,-2.144038 1.323244,-2.144038 0,0 0.01779,1.585391 -0.02849,2.267733 -0.04628,0.682343 -0.249198,1.82632 -0.249198,1.82632 0,0 -0.605678,-0.339954 -1.037262,-0.381186 -0.431584,-0.04123 -1.552244,0.133796 -1.552244,0.133796 z"
+               id="path6273"
+               sodipodi:nodetypes="cscscsc" />
+            <path
+               style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#fdb49f;fill-opacity:1;stroke:#ca8459;stroke-width:0.165;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+               d="m 26.446821,94.799062 c 0,0 0.440749,-1.121741 0.753085,-1.664219 0.312336,-0.542479 1.12093,-1.590651 1.12093,-1.590651 0,0 -0.08529,1.409824 -0.03597,2.133129 0.04932,0.723304 0.331871,2.206697 0.331871,2.206697 0,0 -0.493161,0.144852 -0.739742,0.30924 -0.246581,0.164387 -0.739742,0.677084 -0.739742,0.677084 0,0 -0.04622,-0.80078 -0.161292,-1.145993 -0.115071,-0.345214 -0.529136,-0.925287 -0.529136,-0.925287 z"
+               id="path6275"
+               sodipodi:nodetypes="cscscscsc" />
+          </g>
+          <path
+             style="fill:none;stroke:#862d2c;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             d="m 22.91139,94.197166 c 0,0 0.50879,0.403965 0.689616,0.716301 0.180826,0.312336 0.39534,1.157714 0.39534,1.157714 0,0 0.643042,-0.217227 1.01709,-0.02694 0.625133,0.318014 0.698903,1.029962 0.698903,1.029962 0,0 1.005997,-0.266422 1.453818,-0.105358 0.447822,0.161065 1.233112,1.071745 1.233112,1.071745 0,0 1.029676,-0.264763 1.543285,-0.193911 0.374945,0.05172 1.046223,0.441301 1.046223,0.441301"
+             id="path8287"
+             sodipodi:nodetypes="cscscscsc" />
+        </g>
+      </g>
+      <g
+         id="g5945-9-5-2"
+         transform="rotate(18.631982,73.19257,117.24268)"
+         inkscape:transform-center-x="-0.89304034"
+         inkscape:transform-center-y="-4.4678607">
+        <path
+           style="fill:#e24604;fill-opacity:1;stroke:#ffb500;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 15.109459,119.73325 c 0,0 0.404174,-1.91385 0.442228,-2.87448 0.04838,-1.22136 -0.515933,-3.64839 -0.515933,-3.64839 0,0 4.274871,2.21114 7.517877,2.21114 3.243006,0 7.370468,-1.6215 7.370468,-1.6215 0,0 -0.738158,1.85603 -0.7739,3.24301 -0.03407,1.32193 0.442228,2.50596 0.442228,2.50596 0,0 -3.500971,1.36353 -6.891386,1.51094 -3.390416,0.14741 -7.591582,-1.32668 -7.591582,-1.32668 z"
+           id="path2505-3-7-9"
+           sodipodi:nodetypes="cscscscsc" />
+        <path
+           style="font-variation-settings:normal;vector-effect:none;fill:#ffb500;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+           d="m 23.106416,120.50715 c 0,0 2.284845,-0.1597 3.243006,-0.3501 0.95816,-0.19041 2.653368,-0.93974 2.653368,-0.93974 0,0 -0.438948,-1.32243 -0.47908,-1.8979 -0.05087,-0.72944 0.552784,-2.63494 0.552784,-2.63494 0,0 -1.535514,2.97276 -2.469106,3.7958 -0.933593,0.82304 -3.500972,2.02688 -3.500972,2.02688 z"
+           id="path4079-7-2-2"
+           sodipodi:nodetypes="cscscsc" />
+        <path
+           style="fill:none;stroke:#ffb500;stroke-width:0.265;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 15.735949,114.38966 c 0,0 0.442843,1.87703 0.368522,2.72707 -0.06364,0.7279 -0.33167,2.32169 -0.33167,2.32169"
+           id="path4972-7-2-6"
+           sodipodi:nodetypes="csc" />
+      </g>
+      <g
+         id="g5945-9-5"
+         transform="rotate(9.2112301,91.971542,119.98886)"
+         inkscape:transform-center-x="-0.21927039"
+         inkscape:transform-center-y="-4.2985313">
+        <path
+           style="fill:#e24604;fill-opacity:1;stroke:#ffb500;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 15.109459,119.73325 c 0,0 0.404174,-1.91385 0.442228,-2.87448 0.04838,-1.22136 -0.515933,-3.64839 -0.515933,-3.64839 0,0 4.274871,2.21114 7.517877,2.21114 3.243006,0 7.370468,-1.6215 7.370468,-1.6215 0,0 -0.738158,1.85603 -0.7739,3.24301 -0.03407,1.32193 0.442228,2.50596 0.442228,2.50596 0,0 -3.500971,1.36353 -6.891386,1.51094 -3.390416,0.14741 -7.591582,-1.32668 -7.591582,-1.32668 z"
+           id="path2505-3-7"
+           sodipodi:nodetypes="cscscscsc" />
+        <path
+           style="font-variation-settings:normal;vector-effect:none;fill:#ffb500;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+           d="m 23.106416,120.50715 c 0,0 2.284845,-0.1597 3.243006,-0.3501 0.95816,-0.19041 2.653368,-0.93974 2.653368,-0.93974 0,0 -0.438948,-1.32243 -0.47908,-1.8979 -0.05087,-0.72944 0.552784,-2.63494 0.552784,-2.63494 0,0 -1.535514,2.97276 -2.469106,3.7958 -0.933593,0.82304 -3.500972,2.02688 -3.500972,2.02688 z"
+           id="path4079-7-2"
+           sodipodi:nodetypes="cscscsc" />
+        <path
+           style="fill:none;stroke:#ffb500;stroke-width:0.265;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 15.735949,114.38966 c 0,0 0.442843,1.87703 0.368522,2.72707 -0.06364,0.7279 -0.33167,2.32169 -0.33167,2.32169"
+           id="path4972-7-2"
+           sodipodi:nodetypes="csc" />
+      </g>
+      <g
+         id="g5945-9"
+         transform="rotate(3.5033416,116.03503,121.26816)"
+         inkscape:transform-center-x="-0.028107012"
+         inkscape:transform-center-y="-4.5792788">
+        <path
+           style="fill:#e24604;fill-opacity:1;stroke:#ffb500;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 15.109459,119.73325 c 0,0 0.404174,-1.91385 0.442228,-2.87448 0.04838,-1.22136 -0.515933,-3.64839 -0.515933,-3.64839 0,0 4.274871,2.21114 7.517877,2.21114 3.243006,0 7.370468,-1.6215 7.370468,-1.6215 0,0 -0.738158,1.85603 -0.7739,3.24301 -0.03407,1.32193 0.442228,2.50596 0.442228,2.50596 0,0 -3.500971,1.36353 -6.891386,1.51094 -3.390416,0.14741 -7.591582,-1.32668 -7.591582,-1.32668 z"
+           id="path2505-3"
+           sodipodi:nodetypes="cscscscsc" />
+        <path
+           style="font-variation-settings:normal;vector-effect:none;fill:#ffb500;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+           d="m 23.106416,120.50715 c 0,0 2.284845,-0.1597 3.243006,-0.3501 0.95816,-0.19041 2.653368,-0.93974 2.653368,-0.93974 0,0 -0.438948,-1.32243 -0.47908,-1.8979 -0.05087,-0.72944 0.552784,-2.63494 0.552784,-2.63494 0,0 -1.535514,2.97276 -2.469106,3.7958 -0.933593,0.82304 -3.500972,2.02688 -3.500972,2.02688 z"
+           id="path4079-7"
+           sodipodi:nodetypes="cscscsc" />
+        <path
+           style="fill:none;stroke:#ffb500;stroke-width:0.265;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 15.735949,114.38966 c 0,0 0.442843,1.87703 0.368522,2.72707 -0.06364,0.7279 -0.33167,2.32169 -0.33167,2.32169"
+           id="path4972-7"
+           sodipodi:nodetypes="csc" />
+      </g>
+      <g
+         id="g5945"
+         inkscape:transform-center-x="0.020988104"
+         inkscape:transform-center-y="-4.1427685">
+        <path
+           style="fill:#e24604;fill-opacity:1;stroke:#ffb500;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 15.109459,119.73325 c 0,0 0.404174,-1.91385 0.442228,-2.87448 0.04838,-1.22136 -0.515933,-3.64839 -0.515933,-3.64839 0,0 4.274871,2.21114 7.517877,2.21114 3.243006,0 7.370468,-1.6215 7.370468,-1.6215 0,0 -0.738158,1.85603 -0.7739,3.24301 -0.03407,1.32193 0.442228,2.50596 0.442228,2.50596 0,0 -3.500971,1.36353 -6.891386,1.51094 -3.390416,0.14741 -7.591582,-1.32668 -7.591582,-1.32668 z"
+           id="path2505"
+           sodipodi:nodetypes="cscscscsc" />
+        <path
+           style="font-variation-settings:normal;vector-effect:none;fill:#ffb500;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+           d="m 23.106416,120.50715 c 0,0 2.284845,-0.1597 3.243006,-0.3501 0.95816,-0.19041 2.653368,-0.93974 2.653368,-0.93974 0,0 -0.438948,-1.32243 -0.47908,-1.8979 -0.05087,-0.72944 0.552784,-2.63494 0.552784,-2.63494 0,0 -1.535514,2.97276 -2.469106,3.7958 -0.933593,0.82304 -3.500972,2.02688 -3.500972,2.02688 z"
+           id="path4079"
+           sodipodi:nodetypes="cscscsc" />
+        <path
+           style="fill:none;stroke:#ffb500;stroke-width:0.265;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 15.735949,114.38966 c 0,0 0.442843,1.87703 0.368522,2.72707 -0.06364,0.7279 -0.33167,2.32169 -0.33167,2.32169"
+           id="path4972"
+           sodipodi:nodetypes="csc" />
+      </g>
+    </g>
+  </g>
+</svg>

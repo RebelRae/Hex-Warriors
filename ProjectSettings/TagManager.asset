@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags: []
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Terrain
+    uniqueID: 3277396773
+    locked: 0
+  - name: TileEffects
+    uniqueID: 1356095745
+    locked: 0
+  - name: Warriors
+    uniqueID: 412780515
+    locked: 0
+  - name: TopEffects
+    uniqueID: 4025837903
+    locked: 0
+  - name: HUD
+    uniqueID: 4045375121
+    locked: 0

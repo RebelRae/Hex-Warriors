@@ -1,0 +1,7 @@
+Logs/
+Library/
+Temp/
+UserSettings/
+**.meta
+.DS_Store
+.vscode/
